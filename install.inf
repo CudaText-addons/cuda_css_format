@@ -3,6 +3,7 @@ title=CSS Format
 desc=Formats CSS code
 type=cudatext-plugin
 subdir=cuda_css_format
+homepage=https://github.com/CudaText-addons/cuda_css_format
 
 [item1]
 section=commands
