@@ -1,6 +1,7 @@
 
 2019.05.02
-* change: now config has JSON format
++ added actions: Expand, Compact, Compress; and they work for lexers CSS/SCSS/SASS/LESS
+* change: config for action "Format" has JSON format
 
 2015.10
 initial version
