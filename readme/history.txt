@@ -1,6 +1,6 @@
 
-1.0.1
-+update format_proc.py
+2019.05.02
+* change: now config has JSON format
 
-1.0.0 (oct 2015)
-init
+2015.10
+initial version
