@@ -20,19 +20,19 @@ lexers=CSS
 
 [item5]
 section=commands
-caption=CSS Format\Format - Expand
+caption=CSS Format\Expand
 method=expand
 lexers=$lexers
 
 [item6]
 section=commands
-caption=CSS Format\Format - Compact
+caption=CSS Format\Compact
 method=compact
 lexers=$lexers
 
 [item7]
 section=commands
-caption=CSS Format\Format - Compress
+caption=CSS Format\Compress
 method=compress
 lexers=$lexers
 
