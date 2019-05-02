@@ -16,7 +16,6 @@ lexers=CSS
 section=commands
 caption=CSS Format\-
 method=_
-lexers=CSS
 
 [item5]
 section=commands
@@ -40,7 +39,6 @@ lexers=$lexers
 section=commands
 caption=CSS Format\-
 method=_
-lexers=CSS
 
 [item11]
 section=commands
