@@ -1,9 +1,10 @@
 [info]
 title=CSS Format
-desc=Formats CSS code
+desc=Formats CSS/SASS/SCSS/LESS code
 type=cudatext-plugin
 subdir=cuda_css_format
 homepage=https://github.com/CudaText-addons/cuda_css_format
+$lexers=CSS,Sass,SCSS,LESS
 
 [item1]
 section=commands
@@ -13,10 +14,40 @@ lexers=CSS
 
 [item2]
 section=commands
+caption=CSS Format\-
+method=_
+lexers=CSS
+
+[item5]
+section=commands
+caption=CSS Format\Format - Expand
+method=expand
+lexers=$lexers
+
+[item6]
+section=commands
+caption=CSS Format\Format - Compact
+method=compact
+lexers=$lexers
+
+[item7]
+section=commands
+caption=CSS Format\Format - Compress
+method=compress
+lexers=$lexers
+
+[item10]
+section=commands
+caption=CSS Format\-
+method=_
+lexers=CSS
+
+[item11]
+section=commands
 caption=CSS Format\Configure
 method=config_global
 
-[item3]
+[item12]
 section=commands
 caption=CSS Format\Configure (local)
 method=config_local
