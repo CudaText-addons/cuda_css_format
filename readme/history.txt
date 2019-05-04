@@ -1,4 +1,7 @@
 
+2019.05.04
+- fix: crash if config file has not all options
+
 2019.05.02
 + added actions: Expand, Compact, Compress; and they work for lexers CSS/SCSS/SASS/LESS
 * change: config for action "Format" has JSON format

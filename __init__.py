@@ -20,10 +20,10 @@ def options():
 
     with open(fn) as f:
         d = json.load(f)
-        op.indent_size                = d["indent_size"]
-        op.indent_char                = d["indent_char"]
-        op.selector_separator_newline = d["selector_separator_newline"]
-        op.end_with_newline           = d["end_with_newline"]
+        op.indent_size                = d.get('indent_size', 4)
+        op.indent_char                = d.get('indent_char', ' ')
+        op.selector_separator_newline = d.get('selector_separator_newline', True)
+        op.end_with_newline           = d.get('end_with_newline', False)
     return op
 
 
